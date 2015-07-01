@@ -291,8 +291,8 @@ return [
     'Create new group' => 'Créer un nouveau groupe',
     'Import' => 'Importer',
     'Manage meta fields' => 'Gérer les champs de metadonnée',
-    'Add images to gallery' => 'Ajouter des images à la gallerie',
+    'Add images to gallery' => 'Ajouter des images à la galerie',
     'Single image' => 'Une seule image',
     'Images from folder' => 'Images depuis un dossier',
-    'Show all galleries' => 'Voir toutes les galleries',
+    'Show all galleries' => 'Voir toutes les galeries',
 ];
