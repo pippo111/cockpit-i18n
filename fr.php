@@ -96,6 +96,7 @@ return [
     'Languages' => 'Langages',
     'Locales' => 'Paramètres régionaux',
     'Failed loading package information' => 'Impossible de charger les informations de mise à jour',
+    'Settings saved!' => 'Paramètres sauvegardés !',
 
     // Addons
     'Addons'   => 'Extensions',
