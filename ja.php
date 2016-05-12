@@ -5,11 +5,11 @@ return [
 
     '@meta' => [
 
-        'language' => '日本の',
+        'language' => '日本語',
         'author'   => 'yktyshr',
 
         'date' => [
-            'shortdays'   => ['（月）', '（火）', '（水）', '（木）', '（金）', '（Sat）', '（Sun）'],
+            'shortdays'   => ['（月）', '（火）', '（水）', '（木）', '（金）', '（土）', '（日）'],
             'longdays'    => ['月曜日', '火曜日', '水曜日', '木曜日', '金曜日', '土曜日', '日曜日'],
             'shortmonths' => ['1月', '2月', '3月', '4月', '5日', '6日', '7月', '8月', '9月', '10月', '11月', '12月'],
             'longmonths'  => ['1月', '2月', '3月', '4月', '5日', '6日', '7月', '8月', '9月', '10月', '11月', '12月']
@@ -127,26 +127,26 @@ return [
     'Do you really want to remove %s ?' => '%sを削除しますか？',
 
     // Regions
-    'Regions' => 'リジョン一覧',
-    'Region' => 'リジョン',
-    'Add region' => 'リジョンを追加',
-    'Create a region' => 'リジョンを新規作成',
-    'Edit region' => 'リジョンを編集',
-    'Delete region' => 'リジョンを削除',
-    'You don\'t have any regions created.' => 'リジョンが作成されていません。',
+    'Regions' => 'リージョン一覧',
+    'Region' => 'リージョン',
+    'Add region' => 'リージョンを追加',
+    'Create a region' => 'リージョンを新規作成',
+    'Edit region' => 'リージョンを編集',
+    'Delete region' => 'リージョンを削除',
+    'You don\'t have any regions created.' => 'リージョンが作成されていません。',
     'Form' => 'フォーム',
     'Template' => 'テンプレート',
     'Region fields' => 'リジョンフィールド',
     'Form fields' => 'フォーム',
     'Manage form' => 'フォームを管理',
     'Done' => '完了',
-    'This region has no fields yet.' => 'リジョンにフィールドがありません。',
+    'This region has no fields yet.' => 'リージョンにフィールドがありません。',
     'Add field' => 'フィールドを追加',
     'Insert form field' => 'フィールドから挿入',
     'You have no fields added.' => 'フィールドがありません。',
     'Embed region snippet' => '表示用スニペット：サイト内に挿入してください。',
-    'Save Region' => 'リジョンを保存',
-    'Region removed' => 'リジョンを削除しました。',
-    'Region saved!' => 'リジョンを保存しました。',
+    'Save Region' => 'リージョンを保存',
+    'Region removed' => 'リージョンを削除しました。',
+    'Region saved!' => 'リージョンを保存しました。',
 
 ];
