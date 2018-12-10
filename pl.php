@@ -1,12 +1,8 @@
 <?php
-
 return [
-
     '@meta' => [
-
         'language' => 'Polski',
         'author'   => 'Andrzej Makowiecki',
-
         'date' => [
             'shortdays'   => ['Pon', 'Wto', 'Śro', 'Czw', 'Pią', 'Sob', 'Nie'],
             'longdays'    => ['Poniedziałek', 'Wtorek', 'Środa', 'Czwartek', 'Piątek', 'Sobota', 'Niedziela'],
@@ -14,10 +10,8 @@ return [
             'longmonths'  => ['Styczeń', 'Luty', 'Marzec', 'Kwiecień', 'Maj', 'Czerwiec', 'Lipiec', 'Sierpień', 'Wrzesień', 'Październik', 'Listopad', 'Grudzień']
         ]
     ],
-
-
-
     // Common
+    'Close' => 'Zamknij',
     'Dashboard' => 'Pulpit',
     'General' => 'Ogólne',
     'Settings' => 'Ustawienia',
@@ -40,25 +34,26 @@ return [
     'Info' => 'Info',
     'Language' => 'Język',
     'System' => 'System',
+    'Edit' => 'Edytuj',
+    'Delete' => 'Usuń',
     'Are you sure?' => 'Jesteś pewien?',
     'Uuups, something went wrong...' => 'Uuups, coś poszło nie tak...',
-
+    'Default' => 'Domyślny',
     // Activity
     'Activity' => 'Aktywność',
     'No events logged.' => 'Brak odnotowanych zdarzeń.',
     '%s logged in' => '%s zalogował/a się',
-
     // Search
     'Search...'=> 'Szukaj...',
     'Search Results'=> 'Wyniki wyszukiwania',
     'No results found'=> 'Nic nie znaleziono',
-
+    'Search for anything...' => 'Szukaj...',
     // Login
     'Authenticate Please!' => 'Proszę się autoryzować!',
     'Authenticate' => 'Uwierzytelnij',
     'Login failed' => 'Logowanie nieudane',
     'Welcome back!' => 'Witaj ponownie!',
-
+    'Welcome back' => 'Witaj ponownie',
     // Accounts
     'Account'  => 'Konto',
     'Accounts' => 'Konta',
@@ -68,6 +63,8 @@ return [
     'Password' => 'Hasło',
     'Show' => 'Pokaż',
     'New Password' => 'Nowe hasło',
+    'Password Recovery' => 'Odzyskaj hasło',
+    'Forgot Password?' => 'Nie pamiętasz hasła?',
     'Create account' => 'Utwórz hasło',
     'Leave the password field empty to keep your current password.' => 'Pozostaw pole hasła puste, aby zachować swoje obecne hasło.',
     'Edit account' => 'Edytuj dane konta',
@@ -78,7 +75,6 @@ return [
     'Account removed' => 'Konto zostało usunięte!',
     'You can\'t delete yourself!' => 'Nie możesz usunąć swojego konta',
     'You can\'t delete admin accounts!' => 'Nie możesz usunąć konta administratora',
-
     'Groups' => 'Grupy',
     'Group' => 'Grupa',
     'Manage account groups and permissions' => 'Zarządzaj grupami kont i uprawnieniami',
@@ -89,7 +85,6 @@ return [
     'Access' => 'Dostęp',
     'Media root path' => 'Ścieżka katalogu mediów',
     'Relative to' => 'Względna do',
-
     // Settings
     'API' => 'API',
     'Registry' => 'Rejestr',
@@ -102,11 +97,9 @@ return [
     'No locales added yet.' => 'Nie dodano jeszcze żadnych języków dla treści',
     'Languages' => 'Języki',
     'Locales' => 'Języki treści',
-
     // Addons
     'Addons' => 'Dodatki',
     'No additional addons installed.' => 'Brak zainstalowanych dodatków.',
-
     // Datastore
     'Datastore' => 'Magazyn danych',
     'No tables yet.' => 'Brak tabeli',
@@ -119,12 +112,13 @@ return [
     'Actions' => 'Operacje',
     'Export data' => 'Eksportuj dane',
     'Empty table' => 'Pusta tabela',
-
     // Updater
     'Update' => 'Aktualizuj',
     'Getting information...' => 'Pobieram informacje',
-
     // Collections
+    'Add Collection' => 'Dodaj kolekcję',
+    'Filter collections...' => 'Filtruj kolekcje...',
+    'Not saved yet' => 'Jeszcze nie zapisany',
     'Collections' => 'Kolekcje',
     'Collection' => 'Kolekcja',
     'Show entries' => 'Pokaż wpisy',
@@ -142,11 +136,14 @@ return [
     'It seems you don\'t have any entries created.' => 'Nie masz jeszcze żadnych wpisów.',
     'Field name' => 'Nazwa pola',
     'Add entry' => 'Dodaj wpis',
+    'Add Entry' => 'Dodaj wpis',
     'Edit entry' => 'Edytuj wpis',
+    'Edit Entry' => 'Edytuj wpis',
     'Duplicate entry' => 'Duplikuj wpis',
     'Delete entry' => 'Usuń wpis',
     'Delete entries' => 'Usuń wpisy',
     'Filter entries...' => 'Filtruj wpisy...',
+    'Filter items...' => 'Filtruj wpisy...',
     'Reset filter' => 'Wyczyść filtr',
     'No entries found.' => 'Nie znaleziono żadnych wpisów.',
     'This field is required.' => 'To pole jest wymagane.',
@@ -170,7 +167,6 @@ return [
     'Entry removed' => 'Wpis usunięto',
     'Entry saved!' => 'Wpis zapisano!',
     'Load more...' => 'Wczytaj więcej...',
-
     // Mediamanager
     'Mediamanager' => 'Menedżer mediów',
     'Bookmarks' => 'Zakładki',
@@ -197,6 +193,9 @@ return [
     'Download file' => 'Pobierz plik',
     'Size' => 'Rozmiar',
     'Last modified' => 'Modyfikowany',
+    'Last Modified' => 'Modyfikowany',
+    'Last update by' => 'Ostatnio zmodyfikowany przez',
+    'Revisions' => 'Korekty',
     'This folder is empty.' => 'Ten folder jest pusty.',
     'File(s) uploaded.' => 'Plik(i) wczytano.',
     'Save file' => 'Zapisz plik',
@@ -214,7 +213,6 @@ return [
     'Nothing selected' => 'Nic nie wybrano',
     'Find files...' => 'Przeszukaj pliki...',
     'Pick Media path' => 'Wybierz media',
-
     // Regions
     'Regions' => 'Regiony',
     'Region' => 'Region',
@@ -245,7 +243,6 @@ return [
     'Region removed' => 'Region usunięto',
     'Region saved!' => 'Region zapisano',
     'Show all regions' => 'Pokaż wszystkie regiony',
-
     // Versions
     'Versions' => 'Wersje',
     'Version' => 'Wersja',
@@ -254,7 +251,6 @@ return [
     'Close versions' => 'Zamknij wersje',
     'Restoring version...' => 'Przywracanie wersji...',
     'Version history cleared!' => 'Historię wersji opróżniono!',
-
     // Backups
     'Backups' => 'Kopie zapasowe',
     'You don\'t have any backups created.' => 'Nie masz jeszcze żadnej kopii zapasowej.',
@@ -265,7 +261,6 @@ return [
     'Creating backup...' => 'Tworzę kopię strony...',
     'Backup created' => 'Kopię utworzono',
     'Backup deleted' => 'Kopię usunięto',
-
     // Forms
     'Forms' => 'Formularze',
     'Form' => 'Formularz',
@@ -285,7 +280,6 @@ return [
     'Form data' => 'Dane formularza',
     'Form saved!' => 'Formularz zapisany!',
     'Form removed' => 'Formularz usunięty',
-
     // Galleries
     'Galleries' => 'Galerie',
     'Gallery' => 'Galeria',
@@ -314,4 +308,21 @@ return [
     'Images from folder' => 'Obrazy z folderu',
     'Show all galleries' => 'Pokaż wszystkie galerie',
     'Mediapicker' => 'Wybieranie mediów',
+    // Assets
+    'Select Asset' => 'Wybierz plik',
+    'Add folder' => 'Dodaj katalog',
+    'Assets' => 'Plik/i',
+    'Title' => 'Tytuł',
+    'Type' => 'Typ',
+    'Updated' => 'Uaktualniony',
+    'Add images' => 'Dodaj zdjęcia',
+    'Select' => 'Wybierz',
+    'Item' => 'Element',
+    'Image Meta' => 'Informacje o obrazie',
+    'Edit meta data' => 'Edytuj dane',
+    'Select Image' => 'Wybierz obraz',
+    'Select image' => 'Wybierz obraz',
+    'Full size' => 'Pełny rozmiar',
+    'Remove image' => 'Usuń obraz',
+    'Source' => 'Źródło',
 ];
